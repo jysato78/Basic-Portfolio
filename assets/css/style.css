@@ -6,10 +6,11 @@ body {
 	/*Font */
 	font-style: "Georgia"
 	/* Font Color */
-	font-color: #333333;
+	text: #ffffff;
 	/* Margin to flush to top */
     margin: 0;
     padding: 0;
+    width: 960px;
 }
 
 header {
@@ -17,10 +18,10 @@ header {
 	border-color: #cccccc;
 }
 
-div.container {
-    width: 1824px;
+.container {
+    width: 650px;
     margin: 0 auto;
-    padding: 30px;
+    
     border-color: #dddddd;
     background-color: #efeee7;
 } 
@@ -44,26 +45,32 @@ h1 {
 
 
 #main-bio {
-	/*float: left;*/
 
-	/*width: 80%;*/
-	width: 650px;
+	float: left;
+	width: 70%;
+	margin: 0 auto;
 	background-color: #4aaaa5
-
+  position: relative;
 }
 
 #contact-info {
+  clear: both;
 	float: left;
 	width: 30%;
-	margin: 0 auto;
+	margin-top: 300px;
+  margin-left: 400px;
+  line-height: 34px;
+  position: absolute;
 	
 }
 
 #bio-image {
+  position: absolute;
 	float: left;
-	width: 400px;
+	width: 200px;
 	color: #d21034;
-	margin: 0 auto;
+	margin-left: -50px;
+  margin-top: 300px;
 }
 
 
@@ -111,3 +118,8 @@ ul {
       /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
       list-style-position: inside;
     }
+
+footer {
+  background-color: #666666;
+  float: bottom;
+}
